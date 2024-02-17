@@ -24,9 +24,9 @@ jobs:
     - name: Build project
       run: npm install
     - name: Run Front-end
-      run: npm run fe
+      run: npm run fe &
     - name: Run Back-end
-      run: npm run be
+      run: npm run be &
     - name: Playwright installation
       run: npx playwright install
     - name: Run Tests
