@@ -6,7 +6,7 @@
     "scripts": {
         "test": "npx playwright test",
         "test-ui": "npx playwright test",
-        "fe": "http-server -a localhost -p 3000 -P 0http://localhost:300? -c-1",
+        "fe": "http-server -a localhost -p 3000 -P http://localhost:3000? -c-1",
         "be": "node server/server.js"
     },
     "author": "",
